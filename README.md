@@ -13,4 +13,9 @@ Clone the project to Xcode.
 
 3rd party libraries:
 SVGKit library used for display .svg images.
-
+For proper installation:
+Please cd to project folder
+run pod init
+update podfile with repository podfile
+run pod install
+and use Countries.xcworkspace for further development.
