@@ -15,8 +15,9 @@ Clone the project to Xcode.
 SVGKit library used for display .svg images.  
 ### For proper installation:    
 Export podfile.  
-Please cd to project folder.   
+cd to project folder.   
 run pod init.   
-update podfile with repository podfile    
+update podfile with repository podfile or add podfile to SVGKit library. 
+I used as:  pod 'SVGKit', :git => 'https://github.com/SVGKit/SVGKit.git', :branch => '2.x'.   
 run pod install.   
 and use Countries.xcworkspace for further development.    
